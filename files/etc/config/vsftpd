@@ -6,9 +6,12 @@ config listen 'listen'
 	option ipv6 '::1'
 	option port '21'
 	option dataport '20'
+	option pasv_min_port '50000'
+	option pasv_max_port '51000'
 
 config local 'local'
 	option enabled '1'
+	option root '/mnt/mmcblk0p1'
 
 config global 'global'
 	option write '1'
@@ -48,3 +51,4 @@ config log 'log'
 config vuser 'vuser'
 	option enabled '0'
 	option username 'ftp'
+
