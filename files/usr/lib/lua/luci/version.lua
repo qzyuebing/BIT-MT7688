@@ -17,4 +17,4 @@ else
 end
 
 luciname    = "BI4PCS"
-luciversion = "MMDVM 12.03"
+luciversion = "MMDVM 12.05"
